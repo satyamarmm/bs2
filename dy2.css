@@ -1,0 +1,35 @@
+
+.nav .nav-link:hover {
+    color: rgb(86, 86, 211);
+}
+
+.navbar-collapse .d-flex {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.card {
+    cursor: pointer;
+    transition: all 2s ease ;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+@media screen and (max-width:320px) {
+    .navbar-collapse .d-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:768px) {
+    .navbar-collapse .d-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: fit-content;
+    }
+}
